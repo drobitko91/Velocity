@@ -17,8 +17,20 @@ p {
     line-height: 1.8;
 }
 
+
+
+/* header */
+
 .header {
+    width: 100%;
     padding: 20px 0;
+    z-index: 100;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    background-color: #fff;
 }
 
 .header__container {
@@ -55,4 +67,84 @@ p {
 
 .header__nav a:active {
     color: #0057A2;
+}
+
+
+/* main */
+
+.main {
+
+}
+
+/* welcome */
+
+.welcome {
+    min-height: 600px;
+    height: 100vh;
+    padding: 195px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: #021729;
+    background-image: url(./img/welcome_bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.welcome__heading {
+    margin-bottom: 100px;
+    font-size: 59px;
+    line-height: 1;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.welcome__links > * + * {
+    margin-left: 20px;
+}
+
+.link-primary {
+    display: inline-block;
+    padding: 11px 30px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    background-color: #69B9FF;
+    /* border: 1px solid #69B9FF; */
+    box-sizing: border-box;
+    border-radius: 4px; 
+
+    transition: background-color 0.2s;
+}
+
+.link-primary:hover {
+    background-color: #69b9ff50;
+}
+
+.link-primary:active {
+    background-color: #3581c3;
+}
+
+.link {
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+
+}
+
+.link:hover {
+    background-color: #fcfeff42;
+}
+
+.link:active {
+    background-color: #ffffffc8;
 }
