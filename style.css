@@ -13,8 +13,45 @@ body {
 }
 
 p {
+    font-size: 14px;
     color: #6A859C;
     line-height: 1.8;
+}
+
+.common-section {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.common-section--dark {
+    background-color: #192024;
+}
+
+.common-section--dark * {
+    color: white;
+}
+
+
+.title-wrapper {
+    margin-bottom: 60px;
+}
+
+.title {
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #676770;
+
+    margin-bottom: 17px;
+}
+
+.subtitle {
+    font-size: 17px;
+    line-height: 1.2;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #8E8E9C;
 }
 
 
@@ -31,6 +68,7 @@ p {
     left: 0;
 
     background-color: #fff;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
 }
 
 .header__container {
@@ -70,11 +108,8 @@ p {
 }
 
 
+
 /* main */
-
-.main {
-
-}
 
 /* welcome */
 
@@ -147,4 +182,77 @@ p {
 
 .link:active {
     background-color: #ffffffc8;
+}
+
+
+
+/* about (what we do) */
+
+.about {
+    text-align: center;
+}
+
+.about .cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about .card {
+    width: 300px;
+    padding: 35px 16px 20px;
+    border: 1px solid #DCEBF7;
+    border-radius: 5px;
+}
+
+.about .card img {
+    width: 94px;
+    height: 94px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.about .card h4 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    color: #676770;
+}
+
+
+
+/* about (services) */
+.services {
+}
+
+.services .title {
+    color: white;
+}
+
+.services .cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.services .card {
+    width: 45%;
+}
+
+.services .card img {
+    margin-bottom: 20px;
+}
+
+.services .card h4 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+.services .link {
+    margin-top: 17px;
 }
