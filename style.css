@@ -256,3 +256,50 @@ p {
 .services .link {
     margin-top: 17px;
 }
+
+
+/* tab-section*/
+
+.tab-section {
+}
+
+.tabs {
+}
+.tabs__nav {
+    margin-bottom: 50px;
+}
+
+.tabs__nav button {
+    padding: 0 30px;
+    font-size: 16 px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: white;
+
+    background-color: #92A0AD;
+    border-radius: 4px;
+}
+
+.tabs__nav button + button {
+    margin-left: 15px;
+}
+
+.tabs__nav button.active {
+    background-color: #2E80B6;
+}
+
+.tabs__item img {
+    margin-bottom: 15px;
+}
+
+.tabs__item h4 {
+    margin-bottom: 15px;
+    font-size: 31px;
+    line-height: 36px;
+    color: #676770;
+}
+
+.tabs__desc {
+    margin: 0 auto;
+}
