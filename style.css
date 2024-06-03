@@ -194,12 +194,14 @@ p {
 
 .about .cards-wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 20px; 
 }
 
 .about .card {
-    width: 300px;
+    max-width: 300px;
     padding: 35px 16px 20px;
     border: 1px solid #DCEBF7;
     border-radius: 5px;
@@ -375,3 +377,4 @@ p {
 .footer__copy p {
     color: #9E9E9E;
 }
+
